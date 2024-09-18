@@ -1,0 +1,21 @@
+{
+    "name": "miniorange/lib",
+    "description": "A library for handling OAuth and SSO integrations",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miniorange\\Lib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shubham Mali",
+            "email": "shubhammali929@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
